@@ -1,0 +1,2 @@
+# Project Summary: 
+NUV HST data in F275W and F336W of NGC 6946 was divided into grids via a quadtree algorithm (sfh_gridding.ipynb). Each grid was then sorted by stellar density and had a set of aritificial stars generated for each stellar density bin (found at /astro/store/phat/detran/sfh/fake). We then ran the CMDs of each grid through match using the ngc6946_runcalcsfh_hyak.py and ngc6946_match_pipeline.py scripts. run.commands has the list of commands that were used to run these scripts on hyak. See Tran et al. 2023 paper for details. 
